@@ -22,6 +22,17 @@
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="wwwroot\img\lasagna.jpg" />
+    <Content Remove="wwwroot\img\cha_gio.jpg" />
+    <Content Remove="wwwroot\img\churrasco_argentino.jpg" />
+    <Content Remove="wwwroot\img\sushi.jpg" />
+    <Content Remove="wwwroot\img\costillas.jpg" />
+    <Content Remove="wwwroot\img\enchiladas_suizas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\img\cha_gio.jpg" />
+    <None Include="wwwroot\img\churrasco_argentino.jpg" />
+    <None Include="wwwroot\img\sushi.jpg" />
+    <None Include="wwwroot\img\costillas.jpg" />
+    <None Include="wwwroot\img\enchiladas_suizas.jpg" />
   </ItemGroup>
 </Project>

@@ -13,6 +13,7 @@ namespace mtw_dnet_webapp_mvc.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            ViewData["Title"] = "Recetario de Alex Franco";
             return View();
         }
     }
